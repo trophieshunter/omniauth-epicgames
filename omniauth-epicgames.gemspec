@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/omniauth/epicgames/version"
+require_relative "lib/omniauth-epicgames/version"
 
 Gem::Specification.new do |spec|
   spec.name = "omniauth-epicgames"
-  spec.version = Omniauth::Epicgames::VERSION
+  spec.version = OmniAuth::EpicGames::VERSION
   spec.authors = ["trophieshunter.com"]
   spec.email = ["support@trophieshunter.com"]
 
@@ -29,6 +29,6 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'omniauth', '~> 1.0'
-  spec.add_dependency 'omniauth-oauth2', '~> 1.1'
+  spec.add_dependency "omniauth", "~> 1.0"
+  spec.add_dependency "omniauth-oauth2", "~> 1.1"
 end

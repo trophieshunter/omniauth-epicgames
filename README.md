@@ -20,9 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-use OmniAuth::Builder do
-    provider :epic_games, ENV['EPIC_GAMES_KEY'], ENV['EPIC_GAMES_SECRET']
-end
+    use OmniAuth::Builder do
+        provider :epic_games, ENV['EPIC_GAMES_KEY'], ENV['EPIC_GAMES_SECRET']
+    end
 
 ## License
 
