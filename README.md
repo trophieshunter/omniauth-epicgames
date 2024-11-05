@@ -1,5 +1,7 @@
 # OmniAuth EpicGames
 
+[![Gem Version](https://badge.fury.io/rb/omniauth-epicgames.svg)](https://badge.fury.io/rb/omniauth-epicgames)
+
 This is an OmniAuth strategy for authenticating to Epic Games OAuth
 service. In order to use it you need to register an application at the
 [Epic Games Developer Portal](https://dev.epicgames.com)
