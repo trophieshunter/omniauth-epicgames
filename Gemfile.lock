@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     omniauth-epicgames (0.1.0)
-      omniauth (~> 1.0)
+      omniauth (~> 2.0)
       omniauth-oauth2 (~> 1.1)
 
 GEM
@@ -32,13 +32,17 @@ GEM
       rack (>= 1.2, < 4)
       snaky_hash (~> 2.0)
       version_gem (~> 1.1)
-    omniauth (1.9.2)
+    omniauth (2.1.2)
       hashie (>= 3.4.6)
-      rack (>= 1.6.2, < 3)
+      rack (>= 2.2.3)
+      rack-protection
     omniauth-oauth2 (1.7.3)
       oauth2 (>= 1.4, < 3)
       omniauth (>= 1.9, < 3)
     rack (2.2.10)
+    rack-protection (3.2.0)
+      base64 (>= 0.1.0)
+      rack (~> 2.2, >= 2.2.4)
     rake (13.2.1)
     snaky_hash (2.0.1)
       hashie
